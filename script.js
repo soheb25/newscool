@@ -1,5 +1,6 @@
-const API_KEY = "e7b413d6fb664383b256ab94d414713f";
-const url = "https://newsapi.org/v2/everything?q=";
+const proxyUrl = "https://cors-anywhere.herokuapp.com/";
+const url = `${proxyUrl}https://newsapi.org/v2/everything?q=&apiKey=${API_KEY}`;
+
 
 window.addEventListener('load' , () => fetchNews("world"));
 
