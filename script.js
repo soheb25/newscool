@@ -1,5 +1,4 @@
-const API_KEY = process.env.API_KEY;
-const NAME = process.env.NAME;
+const API_KEY = "e7b413d6fb664383b256ab94d414713f";
 const url = "https://newsapi.org/v2/everything?q=";
 
 
